@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "name": "Entree",
+      "items": [
+        {
+          "name": "Samosa",
+          "description": "Deep fried pastry stuffed with vegetables.",
+          "price": 6.99,
+          "vegan": true
+        },
+        {
+          "name": "Onion Bhaji",
+          "description": "Onion and chickpea flour dipped in spices and deep fried. Comes in pieces.",
+          "price": 9.99,
+          "vegan": true
+        },
+        {
+          "name": "Paneer Pakora (4pc)",
+          "description": "Paneer cubes dipped in chickpea flour and deep fried.",
+          "price": 12.99,
+          "vegan": false
+        },
+        {
+          "name": "Chicken Tikka",
+          "description": "Boneless tender chicken marinated in authentic spices and cooked in the tandoor.",
+          "price": 13.99,
+          "vegan": false
+        },
+        {
+          "name": "Chilli Chicken",
+          "description": "Chicken marinated in fresh green chillies, spices and grilled in the tandoor.",
+          "price": 13.99,
+          "vegan": false
+        },
+        {
+          "name": "Chicken Tikka",
+          "description": "Succulent chicken marinated in spices and grilled to perfection",
+          "price": 10.99,
+          "vegan": false
+        },
+        {
+          "name": "Fish Tikka",
+          "description": "Boneless pieces of lemon fish fillets wrapped in garam masala, herbs, spices and smoke roasted.",
+          "price": 13.99,
+          "vegan": false
+        },
+        {
+          "name": "Seekh Kebab",
+          "description": "Lamb mince marinated in spices and grilled in the tandoor.",
+          "price": 13.99,
+          "vegan": false
+        },
+        {
+          "name": "Barah Kebab",
+          "description": "Lamb cutlets marinated in yoghurt, mildly spiced and grilled in the tandoor.",
+          "price": 14.99,
+          "vegan": false
+        },
+        {
+          "name": "Tandoor Prawns",
+          "description": "Prawns marinated in yoghurt and spices, cooked gently in the tandoor.",
+          "price": 13.99,
+          "vegan": false
+        },
+        {
+          "name": "Tandoori Sangam",
+          "description": "Combination of a few entrees served on a platter.",
+          "price": 23.99,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "subcategories": [
+        {
+          "name": "Vegetarian",
+          "items": [
+            {
+              "name": "Paneer Butter Masala",
+              "description": "Cottage cheese in a creamy tomato-based curry",
+              "price": 14.99,
+              "vegan": false
+            },
+            {
+              "name": "Mixed Vegetable Curry",
+              "description": "Seasonal vegetables cooked in a flavorful curry",
+              "price": 13.99,
+              "vegan": true
+            }
+          ]
+        },
+        {
+          "name": "Lamb",
+          "items": [
+            {
+              "name": "Lamb Rogan Josh",
+              "description": "Tender lamb cooked with aromatic spices",
+              "price": 16.99,
+              "vegan": false
+            }
+          ]
+        },
+        {
+          "name": "Chicken",
+          "items": [
+            {
+              "name": "Butter Chicken",
+              "description": "Chicken cooked in a rich and creamy tomato gravy",
+              "price": 15.99,
+              "vegan": false
+            }
+          ]
+        },
+        {
+          "name": "Beef",
+          "items": [
+            {
+              "name": "Beef Vindaloo",
+              "description": "Spicy beef curry cooked with potatoes",
+              "price": 16.99,
+              "vegan": false
+            }
+          ]
+        },
+        {
+          "name": "Seafood",
+          "items": [
+            {
+              "name": "Prawn Masala",
+              "description": "Juicy prawns cooked in a flavorful curry",
+              "price": 17.99,
+              "vegan": false
+            }
+          ]
+        },
+        {
+          "name": "Rice",
+          "items": [
+            {
+              "name": "Vegetable Fried Rice",
+              "description": "Fried rice with mixed vegetables",
+              "price": 12.99,
+              "vegan": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naans",
+      "items": [
+        {
+          "name": "Garlic Naan",
+          "description": "Naan bread topped with garlic and herbs",
+          "price": 3.99,
+          "vegan": false
+        },
+        {
+          "name": "Plain Naan",
+          "description": "Soft and fluffy plain naan bread",
+          "price": 2.99,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Extras",
+      "items": [
+        {
+          "name": "Papadums",
+          "description": "Crispy lentil wafers",
+          "price": 2.99,
+          "vegan": true
+        },
+        {
+          "name": "Raita",
+          "description": "Cool yogurt with cucumber and spices",
+          "price": 3.99,
+          "vegan": false
+        }
+      ]
+    }
+  ]
+}
