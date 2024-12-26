@@ -1,5 +1,7 @@
 import {  createTheme, rem } from "@mantine/core";
 import "@fontsource/noto-serif-display/900.css";
+import "@fontsource/noto-serif-display/900.css";
+import "@fontsource/noto-serif/900.css";
 import "@fontsource/open-sans/400.css";
 export const theme = createTheme({
 
@@ -36,7 +38,7 @@ scale:1,
         sizes: {
             h1: { fontSize: rem(100),fontWeight: "900" },
             h2: { fontSize: rem(64)},
-            h3: { fontSize:rem(40)},
+            h3: { fontSize:rem(40), fontWeight:"800"},
             h4: { fontSize: rem(36) },
             h5: { fontSize: rem(28), fontWeight: "900" }, // sub heading
             h6: { fontSize: rem(20), fontWeight: "900" }, // sub title

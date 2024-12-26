@@ -2,6 +2,7 @@ import {Box, Title,Text} from "@mantine/core";
 import classes from "./thePage.module.css"
 import SagarLogo from '../assets/SagarLogov2.svg?react';
 import MenuComp from "../component/menuComponents/menu.tsx";
+import Footer from "../component/footer.tsx";
 
 const openingHours = [
     { day: "MON - TUE", open: "5:00 PM", close: "9:00 PM" },
@@ -42,7 +43,7 @@ return (
            </Box>
            <MenuComp></MenuComp>
        </Box>
-
+    <Footer/>
     </Box>
 )
 }

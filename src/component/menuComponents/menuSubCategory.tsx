@@ -14,7 +14,7 @@ const MenuSubcategory: FC<SubcategoryProps> = ({subcategory}) =>{
             <Box style={{
                 display: "grid",
                 gridTemplateColumns: "repeat(2, 1fr)", // Two columns
-                gap: "1 10rem", // Spacing between grid items
+                gap: "1rem 10rem", // Spacing between grid items
             }}>
             {subcategory.items.map((item, index) => (
                 <MenuItem key={index} item={item} />
