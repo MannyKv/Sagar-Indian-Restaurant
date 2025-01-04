@@ -25,6 +25,7 @@ return (
            <Title size="h4" c="primary.9" fw={900}>
                73 MOKOIA ROAD, BIRKENHEAD, AUCKLAND
            </Title>
+           <Title size={"h5"} c="primary.9" style={{fontFamily: "Noto-serif"}}>Ph: 09 4185019</Title>
            <Text fz="sm" className={classes.description} >
                At Sagar Indian Restaurant, we bring the authentic flavors of Indian cuisine to the North Shore. Our extensive menu offers something for every taste, including a variety of delicious vegetarian options.
            </Text>
