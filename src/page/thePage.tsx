@@ -1,4 +1,4 @@
-import {Box, Title,Text} from "@mantine/core";
+import {Box, Title, Text, Button} from "@mantine/core";
 import classes from "./thePage.module.css"
 import SagarLogo from '../assets/SagarLogov2.svg?react';
 import MenuComp from "../component/menuComponents/menu.tsx";
@@ -11,6 +11,18 @@ const openingHours = [
 ];
 
 const thePage = () =>{
+    const scrollToFooter=()=>{
+        const element = document.getElementById("footer");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+    const scrollToMenu=()=>{
+        const element = document.getElementById("menu");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
 return (
     <Box className={classes.background}>
         <Box style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
@@ -29,6 +41,8 @@ return (
            <Text fz="sm" className={classes.description} >
                At Sagar Indian Restaurant, we bring the authentic flavors of Indian cuisine to the North Shore. Our extensive menu offers something for every taste, including a variety of delicious vegetarian options.
            </Text>
+           <Button style={{marginRight:"2vw"}} onClick={scrollToFooter}>About Us</Button>
+           <Button onClick={scrollToMenu}>Menu</Button>
            <Box>
                <Title style={{fontSize: "1.75rem", paddingTop: "2rem"}} size="h5" c="primary.9">
                    OPENING HOURS:

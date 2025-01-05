@@ -11,7 +11,7 @@ interface MenuCategoryProps {
 const MenuCategory: FC<MenuCategoryProps> = ({category}) => {
 
     return (
-        <Box>
+        <Box style={{paddingTop: "2rem", paddingBottom:"2rem"}}>
             <Title tt="uppercase" size={"h3"} c={"primary.9"}>{category.name}</Title>
             <Divider my={"md"} color={"primary.6 "}></Divider>
             <Box  style={{

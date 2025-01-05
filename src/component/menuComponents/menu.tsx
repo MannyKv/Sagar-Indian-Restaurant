@@ -5,7 +5,7 @@ import MenuCategory from './menuCategory.tsx';
 const MenuComp = () =>{
 const data: CategoryType[] = menu.categories
     return(
-        <Box>
+        <Box id={"menu"}>
             <Title size={"h2"} c={"primary.9"}>MENU</Title>
             <Text size={"sm"}>
                 Authentic Indian cuisine for every taste,

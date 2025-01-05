@@ -4,7 +4,7 @@ const Footer =()=>{
 
     return(
         <>
-        <Box style={{display:"flex", flexDirection:"row", justifyContent:"center", transform:"scale(-1,-1)"}}>
+        <Box id="footer" style={{display:"flex", flexDirection:"row", justifyContent:"center", transform:"scale(-1,-1)"}}>
             <SagarLogo></SagarLogo>
             <SagarLogo/>
             <SagarLogo/>
