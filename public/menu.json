@@ -239,9 +239,50 @@
           "name": "Seafood",
           "items": [
             {
-              "name": "Prawn Masala",
-              "description": "Juicy prawns cooked in a flavorful curry",
-              "price": 17.99,
+              "name": "KERALA FISH CURRY",
+              "description": "Lemon fish cooked with fresh coconut fine and blend of herb and spices.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "FISH MASALA",
+              "description": "Lemon fish cooked with onion gravy and spices.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "FISH MALAI KORMA",
+              "description": "Lemon fish filets cooked in mid gravy with fresh cream & cashew nut gravy.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "BUTTER PRAWNS",
+              "description": "Prawns cooked in a smooth butter & tomato sauce.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "PRAWN MASALA",
+              "description": "Prawn cooked with onion gravy, herb and spices.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "JHINGA MALABARI",
+              "description": "A speciality dish from South India. Prawns cooked with coconut fine, herb and spices.",
+              "price": 22.99,
+              "vegan": false
+            },
+            {
+              "name": "PRAWN MADRAS",
+              "description": "Prawn cooked in spicy sauce with coconut fine.",
+              "price": 22.99,
+              "vegan": false
+            },  {
+              "name": "PRAWN JALFRAZI",
+              "description": "Tender prawn cooked with onion, capsicum, tomato, herbs & spices.",
+              "price": 22.99,
               "vegan": false
             }
           ]
