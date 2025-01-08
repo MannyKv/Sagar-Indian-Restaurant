@@ -41,12 +41,12 @@ return (
            <Text fz="sm" className={classes.description} >
                At Sagar Indian Restaurant, we bring the authentic flavors of Indian cuisine to the North Shore. Our extensive menu offers something for every taste, including a variety of delicious vegetarian options.
            </Text>
-           <Box style={{marginTop:"2vh"}}>
+           <Box style={{marginTop:"4vh"}}>
            <Button style={{marginRight:"2vw"}} onClick={scrollToFooter} color={"primary.7"}>About Us</Button>
            <Button onClick={scrollToMenu}  color={"primary.7"}>Menu</Button>
            </Box>
-           <Box>
-               <Title style={{fontSize: "1.75rem", paddingTop: "2rem"}} size="h5" c="primary.9">
+           <Box style={{marginTop:"4vh", marginBottom:"4vh"}}>
+               <Title style={{fontSize: "1.75rem"}} size="h5" c="primary.9">
                    OPENING HOURS:
                </Title>
                <ul style={{ listStyleType: "none" }}>
