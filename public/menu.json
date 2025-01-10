@@ -285,16 +285,74 @@
           "name": "Vegetarian",
           "items": [
             {
-              "name": "Paneer Butter Masala",
-              "description": "Cottage cheese in a creamy tomato-based curry",
-              "price": 14.99,
+              "name": "MIXED VEGETABLES",
+              "description":"Seasonal vegetables cooked with spicy curry sauce.",
+              "price": [18,16],
+              "vegan": true
+            },
+            {
+              "name": "VEGETABLES KORMA",
+              "description": "Fresh mixed vegetables cooked in cashew nuts & creamy sauce.",
+              "price":  [18,16],
               "vegan": false
             },
             {
-              "name": "Mixed Vegetable Curry",
-              "description": "Seasonal vegetables cooked in a flavorful curry",
-              "price": 13.99,
+              "name": "BOMBAY POTATO",
+              "description": "Cubes of potatoes cooked with onion & spices.",
+              "price":  [18,16],
               "vegan": true
+            },
+            {
+              "name": "PALAK PANEER",
+              "description": "A speciality dish from Punjab. Fresh leafy spinach & cottage cheese cooked in a mild gravy.",
+              "price":  [18,16],
+              "vegan": false
+            },
+            {
+              "name": "DHAL MAKHNI",
+              "description": "Mixed lentils & beans cooked with ginger, onion, tomato & fresh green coriander leaves.",
+              "price":  [18,16],
+              "vegan": true
+            },
+            {
+              "name": "VEGETABLE JALFRAZI",
+              "description": "Sliced capsicum. onion, tomato, paneer & coriander haves cooked in a special spices.",
+              "price":  [19,17],
+              "vegan": false
+            },{
+              "name": "MATAR PANEER",
+              "description": "Peas & cottage cheese cooked in onion, tomato gravy.",
+              "price":  [18,16],
+              "vegan": false
+            },
+            {
+              "name": "MALAI KOFTA",
+              "description": "Cottage cheese potato deep fried cooked in cream & spices.",
+              "price":  [18,16],
+              "vegan": false
+            },
+            {
+              "name": "PANEER MASALA",
+              "description": "Paneer fillets cooked with onion & mid sauce.",
+              "price":  [19,17],
+              "vegan": false
+            }, {
+              "name": "PANEER MAKHNI",
+              "description": "Butter paneer cooked in a mid creamy tomato gravy.",
+              "price":  [19,17],
+              "vegan": false
+            },
+            {
+              "name": "PANEER MALABARI",
+              "description": "Paneer cubes cooked in spicy sauce with coconut fine.",
+              "price":  [19,17],
+              "vegan": false
+            },
+            {
+              "name": "KARAHI PANEER",
+              "description": "Paneer cubes cooked with onion, capsicum & spices.",
+              "price": [19,17],
+              "vegan": false
             }
           ]
         },
@@ -302,9 +360,33 @@
           "name": "Rice",
           "items": [
             {
-              "name": "Vegetable Fried Rice",
-              "description": "Fried rice with mixed vegetables",
-              "price": 12.99,
+              "name": "LAMB BIRYANI",
+              "description": "Spiced Iamb cooked with basmati rice in a special way.",
+              "price": [22,19],
+              "vegan": false
+            },
+            {
+              "name": "CHICKEN BIRYANI",
+              "description": "Tender chicken spiced cooked with basmati rice.",
+              "price": [22,19],
+              "vegan": false
+            },
+            {
+              "name": "VEGETABLE BIRYANI",
+              "description": "Seasonal vegetables fried in basmati rice in a very special way.",
+              "price": [17,16],
+              "vegan": true
+            },
+            {
+              "name": "NAVRATNA PULAO (Pulao Rice)",
+              "description": "Saffron rice with fruits, nuts & vegetables.",
+              "price": [7,7],
+              "vegan": true
+            },
+            {
+              "name": "Plain Rice",
+              "description": "Plain white rice (rice comes with curries)",
+              "price": [3,3],
               "vegan": true
             }
           ]
