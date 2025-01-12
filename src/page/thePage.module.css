@@ -2,17 +2,25 @@
 html {
     scroll-behavior: smooth;
 }
+@media (min-width: 320px) { html{
+    font-size:40%
+} }
+@media (min-width: 576px) { html{
+    font-size:62.5%
+} }
+@media (min-width: 768px) {  html{font-size:75%} }
+
+@media (min-width: 992px) { html{font-size:87.5% } }
+
+@media (min-width: 1200px) { html{font-size:100%} }
+
+@media (min-width: 1400px) { html{font-size:100%} }
+
 body{
     height: 100vh;
     width: 100vw;
     margin: 0;
     overflow-x: hidden;
-}
-text{
-    font-family: Noto Serif Display, serif;
-}
-h1, h2, h3, h4, h5, h6{
-    font-family: Noto Serif Display, serif;
 }
 .background{
     display: flex;

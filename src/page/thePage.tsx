@@ -3,14 +3,15 @@ import classes from "./thePage.module.css"
 import SagarLogo from '../assets/SagarLogov2.svg?react';
 import MenuComp from "../component/menuComponents/menu.tsx";
 import Footer from "../component/footer.tsx";
-
+import React, { useEffect, useState } from 'react';
 const openingHours = [
     { day: "MON - TUE", open: "5:00 PM", close: "9:00 PM" },
     { day: "WED - SUN", open: "5:00 PM", close: "10:00 PM" },
 
 ];
 
-const thePage = () =>{
+const ThePage = () =>{
+
     const scrollToFooter=()=>{
         const element = document.getElementById("footer");
         if (element) {
@@ -23,12 +24,38 @@ const thePage = () =>{
             element.scrollIntoView({ behavior: "smooth" });
         }
     }
+
+    const [logoCount, setLogoCount] = useState(0);
+
+    useEffect(() => {
+        const calculateLogos = () => {
+            const logoWidth = 1000; // Adjust this to match the actual width of SagarLogo
+            const screenWidth = window.innerWidth;
+            setLogoCount(Math.ceil(screenWidth / logoWidth)+1);
+        };
+
+        calculateLogos();
+        window.addEventListener('resize', calculateLogos);
+        return () => window.removeEventListener('resize', calculateLogos);
+    }, []);
 return (
     <Box className={classes.background}>
-        <Box style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
-        <SagarLogo></SagarLogo>
-            <SagarLogo/>
-            <SagarLogo/>
+        {/*<Box style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>*/}
+        {/*<SagarLogo></SagarLogo>*/}
+        {/*    <SagarLogo/>*/}
+        {/*    <SagarLogo/>*/}
+        {/*</Box>*/}
+            <Box
+                style={{
+                    display: 'flex',
+                    flexDirection:"row",
+                    justifyContent:"center",
+                    width:"100%"
+                }}
+            >
+                {Array.from({ length: logoCount }).map((_, index) => (
+                    <SagarLogo key={index} style={{ height: '100%' }} />
+                ))}
         </Box>
        <Box className={classes.container}>
            <Title  className={classes.mainTitle} size="h1" c="primary.9" fw={900}>
@@ -64,4 +91,4 @@ return (
     </Box>
 )
 }
-export default thePage;
+export default ThePage;
