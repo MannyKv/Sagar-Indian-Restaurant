@@ -15,7 +15,7 @@ const MenuItem: FC<ItemProps> = ({item}) => {
 
                     {item.vegan ? ( <Tooltip label={"Can be made vegan"}><VeganIcon style={{color:"E03131", marginLeft: "1rem"}}/></Tooltip>):null}</Text>
                 
-                <Text tt="uppercase" size={"sm"} c={"primary.8"}>{item.price[0]} | {item.price[1]}</Text>
+                <Text tt="uppercase" size={"xs"} c={"primary.8"}>{item.price[0]} | {item.price[1]}</Text>
             </Box>
             <Text size={"xs"}>{item.description}</Text>
         </Box>

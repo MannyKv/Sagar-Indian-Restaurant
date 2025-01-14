@@ -1,20 +1,9 @@
 @import url("@fontsource/open-sans/400.css");
 html {
     scroll-behavior: smooth;
+    font-size: 100%;
 }
-@media (min-width: 320px) { html{
-    font-size:40%
-} }
-@media (min-width: 576px) { html{
-    font-size:62.5%
-} }
-@media (min-width: 768px) {  html{font-size:75%} }
 
-@media (min-width: 992px) { html{font-size:87.5% } }
-
-@media (min-width: 1200px) { html{font-size:100%} }
-
-@media (min-width: 1400px) { html{font-size:100%} }
 
 body{
     height: 100vh;
@@ -34,8 +23,7 @@ body{
 }
 
 .container{
-    margin: 10vw;
-    margin-top: 5vw;
+    margin: 5rem 10rem 0 10rem;
 }
 
 .mainTitle{
@@ -45,3 +33,21 @@ body{
 .description{
 font-family: Open Sans, serif;
 }
+
+@media (min-width: 320px) and (max-width: 600px) { html{
+    font-size:40%
+}
+.container{
+    margin: 2rem 1rem 0 1rem;
+}
+}
+@media (min-width: 576px) { html{
+    font-size:62.5%
+} }
+@media (min-width: 768px) {  html{font-size:75%} }
+
+@media (min-width: 992px) { html{font-size:87.5% } }
+
+@media (min-width: 1200px) { html{font-size:100%} }
+
+@media (min-width: 1400px) { html{font-size:100%} }
