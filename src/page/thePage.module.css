@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    margin: 5rem 10rem 0 10rem;
+    margin: 5rem 7.5rem 0 7.5rem;
 }
 
 .mainTitle{
@@ -38,7 +38,7 @@ font-family: Open Sans, serif;
     font-size:40%
 }
 .container{
-    margin: 2rem 1rem 0 1rem;
+    margin: 2rem 5rem 0 5rem;
 }
 }
 @media (min-width: 576px) { html{
