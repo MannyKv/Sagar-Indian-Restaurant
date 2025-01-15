@@ -29,7 +29,7 @@ const ThePage = () =>{
 
     useEffect(() => {
         const calculateLogos = () => {
-            const logoWidth = 100; // Adjust this to match the actual width of SagarLogo
+            const logoWidth = 104; // Adjust this to match the actual width of SagarLogo
             const screenWidth = window.innerWidth;
             setLogoCount(Math.ceil(screenWidth / logoWidth));
         };
@@ -49,7 +49,7 @@ return (
                 style={{
                     display: 'flex',
                     flexDirection:"row",
-                    justifyContent:"center",
+                    justifyContent:"left",
                     width:"100%"
                 }}
             >
