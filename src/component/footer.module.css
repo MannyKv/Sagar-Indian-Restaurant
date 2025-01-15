@@ -1,0 +1,10 @@
+.content_container{
+display:flex;
+margin: 10vh 10vw 5vw 10vw;
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    .content_container{
+        flex-direction: column;
+    }
+}

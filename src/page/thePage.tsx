@@ -1,6 +1,6 @@
 import {Box, Title, Text, Button} from "@mantine/core";
 import classes from "./thePage.module.css"
-import SagarLogo from '../assets/SagarLogov2.svg?react';
+import SagarLogo from '../assets/single.svg?react';
 import MenuComp from "../component/menuComponents/menu.tsx";
 import Footer from "../component/footer.tsx";
 import React, { useEffect, useState } from 'react';
@@ -29,9 +29,9 @@ const ThePage = () =>{
 
     useEffect(() => {
         const calculateLogos = () => {
-            const logoWidth = 1000; // Adjust this to match the actual width of SagarLogo
+            const logoWidth = 100; // Adjust this to match the actual width of SagarLogo
             const screenWidth = window.innerWidth;
-            setLogoCount(Math.ceil(screenWidth / logoWidth)+1);
+            setLogoCount(Math.ceil(screenWidth / logoWidth));
         };
 
         calculateLogos();

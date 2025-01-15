@@ -1,6 +1,7 @@
 import {Box, Title,Text} from "@mantine/core";
 import SagarLogo from '../assets/SagarLogov2.svg?react';
 import {Mail} from "lucide-react";
+import classes from "./footer.module.css";
 import React, {useEffect, useState} from "react";
 const Footer =()=>{
     const handleEmailClick = () => {
@@ -31,7 +32,7 @@ const Footer =()=>{
         </Box>
 
         <Box bg={"primary.9"} style={{height: "100%", width: "100vw"}}>
-            <Box style={{display:"flex",marginLeft: "10vw",marginRight:"10vw",marginBottom:"5vw", marginTop: "10vh"}}>
+            <Box className={classes.content_container}>
                 <Box style={{width: "fit-content", margin: "0 auto", flex: 1}}> {/* Parent container */}
                     <Title size={"h3"} c="white" fw={900} style={{fontFamily: "Noto-serif"}}>
                         SAGAR <br/>
