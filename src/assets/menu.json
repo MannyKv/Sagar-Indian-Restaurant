@@ -392,40 +392,8 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Naans",
-      "items": [
-        {
-          "name": "Garlic Naan",
-          "description": "Naan bread topped with garlic and herbs",
-          "price": 3.99,
-          "vegan": false
-        },
-        {
-          "name": "Plain Naan",
-          "description": "Soft and fluffy plain naan bread",
-          "price": 2.99,
-          "vegan": false
-        }
-      ]
-    },
-    {
-      "name": "Extras",
-      "items": [
-        {
-          "name": "Papadums",
-          "description": "Crispy lentil wafers",
-          "price": 2.99,
-          "vegan": true
-        },
-        {
-          "name": "Raita",
-          "description": "Cool yogurt with cucumber and spices",
-          "price": 3.99,
-          "vegan": false
-        }
-      ]
     }
+
+    
   ]
 }
