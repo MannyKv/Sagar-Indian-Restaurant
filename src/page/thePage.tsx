@@ -2,7 +2,7 @@ import {Box, Button, Text, Title} from "@mantine/core";
 import classes from "./thePage.module.css"
 import MenuComp from "../component/menuComponents/menu.tsx";
 import Footer from "../component/footer.tsx";
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 
 const openingHours = [
     {day: "MON - TUE", open: "5:00 PM", close: "9:00 PM"},
