@@ -10,7 +10,7 @@
     background-repeat: repeat-x;
     background-position: center top;
     transform: scale(-1, -1);
-    background-size: 6.5rem
+    background-size: contain;
 
 }
 
