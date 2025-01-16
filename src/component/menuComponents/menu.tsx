@@ -1,5 +1,5 @@
 import {Box, Title, Text} from "@mantine/core";
-import menu from '../../../public/menu.json';
+import menu from '../../assets/menu.json';
 import { Category as CategoryType } from './MenuTypes.ts';
 import MenuCategory from './menuCategory.tsx';
 const MenuComp = () =>{
