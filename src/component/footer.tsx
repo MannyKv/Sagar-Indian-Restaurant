@@ -1,5 +1,4 @@
 import {Box, Text, Title} from "@mantine/core";
-import SagarLogo from '../assets/SagarLogov2.svg?react';
 import {Mail} from "lucide-react";
 import classes from "./footer.module.css";
 import {useEffect, useState} from "react";
@@ -23,19 +22,13 @@ const Footer = () => {
     }, []);
     return (
         <>
-            <Box id="footer" style={{
-                display: "flex",
-                flexDirection: "row",
-                width: "100%",
-                justifyContent: "center",
-                transform: "scale(-1,-1)"
-            }}>
-                {/*<SagarLogo></SagarLogo>*/}
-                {/*<SagarLogo/>*/}
-                {/*<SagarLogo/>*/}
-                {Array.from({length: logoCount}).map((_, index) => (
-                    <SagarLogo key={index} style={{height: '100%'}}/>
-                ))}
+            <Box id="footer" className={classes.repeatingSvg}>
+                {/*/!*<SagarLogo></SagarLogo>*!/*/}
+                {/*/!*<SagarLogo/>*!/*/}
+                {/*/!*<SagarLogo/>*!/*/}
+                {/*{Array.from({length: logoCount}).map((_, index) => (*/}
+                {/*    <SagarLogo key={index} style={{height: '100%'}}/>*/}
+                {/*))}*/}
             </Box>
 
             <Box bg={"primary.9"} style={{height: "100%", width: "100vw"}}>

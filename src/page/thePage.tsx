@@ -2,7 +2,6 @@ import {Box, Button, Text, Title} from "@mantine/core";
 import classes from "./thePage.module.css"
 import MenuComp from "../component/menuComponents/menu.tsx";
 import Footer from "../component/footer.tsx";
-import {useEffect, useState} from 'react';
 
 const openingHours = [
     {day: "MON - TUE", open: "5:00 PM", close: "9:00 PM"},
@@ -24,24 +23,9 @@ const ThePage = () => {
             element.scrollIntoView({behavior: "smooth"});
         }
     }
-
-    const [logoCount, setLogoCount] = useState(0);
-
-    useEffect(() => {
-        const calculateLogos = () => {
-            const logoWidth = 104; // Adjust this to match the actual width of SagarLogo
-            const screenWidth = window.innerWidth;
-            setLogoCount(Math.ceil(screenWidth / logoWidth));
-        };
-
-        calculateLogos();
-        window.addEventListener('resize', calculateLogos);
-        return () => window.removeEventListener('resize', calculateLogos);
-    }, []);
     return (
         <Box className={classes.background}>
             <div className={classes.repeatingSvg}>
-
             </div>
             {/*<Box style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>*/}
             {/*<SagarLogo></SagarLogo>*/}
