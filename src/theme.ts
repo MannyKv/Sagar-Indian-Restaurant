@@ -22,7 +22,6 @@ export const theme = createTheme({
     },
 scale:1,
     primaryColor: "primary",
-
     // Text component
      fontFamily: "Open Sans",
      fontFamilyMonospace: "Noto Serif Display, serif",
