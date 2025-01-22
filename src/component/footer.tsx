@@ -1,34 +1,14 @@
 import {Box, Text, Title} from "@mantine/core";
 import {Mail} from "lucide-react";
 import classes from "./footer.module.css";
-import {useEffect, useState} from "react";
 
 const Footer = () => {
     const handleEmailClick = () => {
         window.location.href = `mailto:sagarindianrestuarant@gmail.com`;
     };
-    const [logoCount, setLogoCount] = useState(0);
-
-    useEffect(() => {
-        const calculateLogos = () => {
-            const logoWidth = 1000; // Adjust this to match the actual width of SagarLogo
-            const screenWidth = window.innerWidth;
-            setLogoCount(Math.ceil(screenWidth / logoWidth) + 1);
-        };
-
-        calculateLogos();
-        window.addEventListener('resize', calculateLogos);
-        return () => window.removeEventListener('resize', calculateLogos);
-    }, []);
     return (
         <>
             <Box id="footer" className={classes.repeatingSvg}>
-                {/*/!*<SagarLogo></SagarLogo>*!/*/}
-                {/*/!*<SagarLogo/>*!/*/}
-                {/*/!*<SagarLogo/>*!/*/}
-                {/*{Array.from({length: logoCount}).map((_, index) => (*/}
-                {/*    <SagarLogo key={index} style={{height: '100%'}}/>*/}
-                {/*))}*/}
             </Box>
 
             <Box bg={"primary.9"} style={{height: "100%", width: "100vw"}}>

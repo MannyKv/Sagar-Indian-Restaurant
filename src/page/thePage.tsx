@@ -27,25 +27,6 @@ const ThePage = () => {
         <Box className={classes.background}>
             <div className={classes.repeatingSvg}>
             </div>
-            {/*<Box style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>*/}
-            {/*<SagarLogo></SagarLogo>*/}
-            {/*    <SagarLogo/>*/}
-            {/*    <SagarLogo/>*/}
-            {/*</Box>*/}
-            {/*<Box*/}
-            {/*    style={{*/}
-            {/*        display: 'flex',*/}
-            {/*        flexDirection: "row",*/}
-            {/*        width: "100%"*/}
-            {/*    }}*/}
-            {/*>*/}
-
-            {/*    {Array.from({length: logoCount}).map((_, index) => (*/}
-            {/*        <span style={{marginLeft: "-1px"}}>*/}
-            {/*        <Single key={index}/>*/}
-            {/*        </span>*/}
-            {/*    ))}*/}
-            {/*</Box>*/}
             <Box className={classes.container}>
                 <Title className={classes.mainTitle} size="h1" c="primary.9" fw={900}>
                     SAGAR INDIAN <br/> RESTAURANT
