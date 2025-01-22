@@ -6,61 +6,91 @@
         {
           "name": "Samosa",
           "description": "Deep fried pastry stuffed with vegetables.",
-          "price": [7,6],
+          "price": [
+            7,
+            6
+          ],
           "vegan": true
         },
         {
           "name": "Onion Bhaji",
           "description": "Onion and chickpea flour dipped in spices and deep fried. Comes in pieces.",
-          "price": [10,7],
+          "price": [
+            10,
+            7
+          ],
           "vegan": true
         },
         {
           "name": "Paneer Pakora (4pc)",
           "description": "Paneer cubes dipped in chickpea flour and deep fried.",
-          "price": [13,12],
+          "price": [
+            13,
+            12
+          ],
           "vegan": false
         },
         {
           "name": "Chicken Tikka",
           "description": "Boneless tender chicken marinated in authentic spices and cooked in the tandoor.",
-          "price": [14,13],
+          "price": [
+            14,
+            13
+          ],
           "vegan": false
         },
         {
           "name": "Chilli Chicken",
           "description": "Chicken marinated in fresh green chillies, spices and grilled in the tandoor.",
-          "price": [14,13],
+          "price": [
+            14,
+            13
+          ],
           "vegan": false
         },
         {
           "name": "Fish Tikka",
           "description": "Boneless pieces of lemon fish fillets wrapped in garam masala, herbs, spices and smoke roasted.",
-          "price": [14,13],
+          "price": [
+            14,
+            13
+          ],
           "vegan": false
         },
         {
           "name": "Seekh Kebab",
           "description": "Lamb mince marinated in spices and grilled in the tandoor.",
-          "price": [14,13],
+          "price": [
+            14,
+            13
+          ],
           "vegan": false
         },
         {
           "name": "Barah Kebab",
           "description": "Lamb cutlets marinated in yoghurt, mildly spiced and grilled in the tandoor.",
-          "price": [15,15],
+          "price": [
+            15,
+            15
+          ],
           "vegan": false
         },
         {
           "name": "Tandoor Prawns",
           "description": "Prawns marinated in yoghurt and spices, cooked gently in the tandoor.",
-          "price": [14,14],
+          "price": [
+            14,
+            14
+          ],
           "vegan": false
         },
         {
           "name": "Tandoori Sangam",
           "description": "Combination of a few entrees served on a platter.",
-          "price": [24,22],
+          "price": [
+            24,
+            22
+          ],
           "vegan": false
         }
       ]
@@ -74,49 +104,73 @@
             {
               "name": "Lamb Rogan Josh",
               "description": "Lamb cooked with exotic blend of herbs and spices, a Kashmir speciality.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB VINDALOO",
               "description": "Lamb cooked in hot spices. A traditional dish from the shores of Goa.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB MUGHALAI KORMA",
               "description": "Tender lamb cooked in mild gravy of cashew nuts, creamy sauce.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB SAAGWALA",
               "description": "A speciality dish from Punjab, Iamb cooked with spinach puree and mild blend of spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB MASALA",
               "description": "Diced lamb cooked with onion, tomatoes and with chef's special sauce.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB DO PIYAZA",
               "description": "Tender lamb cooked with diced onions, medium spices, tomatoes and touch of garam masala.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB MALABARI",
               "description": "A speciality from South India, lamb cooked with coconut fine and herbs.",
-              "price":[22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "LAMB JALFRAZI",
               "description": "Tender lamb cooked with onions, capsicum, tomatoes, herb and spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             }
           ]
@@ -127,25 +181,37 @@
             {
               "name": "BEEF VINDALOO",
               "description": "Beef cooked in hot spices. A traditional dish from the shores of Goa.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "BEEF SHAHI KORMA",
               "description": "Tender beef cooked in mild gravy of cashew nuts, creamy sauce.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "BEEF KHARA MASALA",
               "description": "Beef cooked with dry fruits and mild creamy sauce.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "BEEF MADRAS",
               "description": "Beef cooked in a spicy sauce with coconut.",
-              "price":[22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             }
           ]
@@ -156,75 +222,118 @@
             {
               "name": "CHICKEN TIKKA MASALA",
               "description": "Chicken tikka fillets cooked with onion and mild sauce",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
-            },{
+            },
+            {
               "name": "BUTTER CHICKEN",
               "description": "Marinated chicken fillets roasted in tandoor and cooked in a mild creamy tomato gravy.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN KORMA",
               "description": "Chicken fillets cooked in cashew gravy with cream and spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "MANGO CHICKEN",
               "description": "Chicken cooked in mango pulp and spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN SAAGWALA",
               "description": "Chicken fillets cooked with spinach in a mild blend of spices. A specialty dish from Punjab.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN VINDALOO",
               "description": "Tender chicken fillets cooked in Goa style with hot spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN TARIWALA",
               "description": "Chicken curry cooked in mild spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN DO PIYAZA",
               "description": "Chicken pieces cooked with diced onions, medium spices and tomatoes.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN JALFRAZI",
               "description": "Tender chicken cooked with onion, capsicum, tomatoes, herb and spices.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
-            }, {
+            },
+            {
               "name": "CHICKEN MADRAS",
               "description": "Chicken cooked in a spicy sauce with coconut fine.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
-            }, {
+            },
+            {
               "name": "KARAHI CHICKEN",
               "description": "Chicken cooked in capsicum and onion gravy.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
-            }, {
+            },
+            {
               "name": "TANDOORI CHICKEN HALF",
               "description": "Spring chicken marinated in yoghurt & spices then cooked in the tandoor.",
-              "price": [14,13],
+              "price": [
+                14,
+                13
+              ],
               "vegan": false
             },
             {
               "name": "TANDOORI CHICKEN FULL",
               "description": "Spring chicken marinated in yoghurt & spices then cooked in the tandoor.",
-              "price": [25,24],
+              "price": [
+                25,
+                24
+              ],
               "vegan": false
             }
           ]
@@ -235,48 +344,73 @@
             {
               "name": "KERALA FISH CURRY",
               "description": "Lemon fish cooked with fresh coconut fine and blend of herb and spices.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "FISH MASALA",
               "description": "Lemon fish cooked with onion gravy and spices.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "FISH MALAI KORMA",
               "description": "Lemon fish filets cooked in mid gravy with fresh cream & cashew nut gravy.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "BUTTER PRAWNS",
               "description": "Prawns cooked in a smooth butter & tomato sauce.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "PRAWN MASALA",
               "description": "Prawn cooked with onion gravy, herb and spices.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "JHINGA MALABARI",
               "description": "A speciality dish from South India. Prawns cooked with coconut fine, herb and spices.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             },
             {
               "name": "PRAWN MADRAS",
               "description": "Prawn cooked in spicy sauce with coconut fine.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
-            },  {
+            },
+            {
               "name": "PRAWN JALFRAZI",
               "description": "Tender prawn cooked with onion, capsicum, tomato, herbs & spices.",
-              "price": [23,20],
+              "price": [
+                23,
+                20
+              ],
               "vegan": false
             }
           ]
@@ -286,72 +420,110 @@
           "items": [
             {
               "name": "MIXED VEGETABLES",
-              "description":"Seasonal vegetables cooked with spicy curry sauce.",
-              "price": [18,16],
+              "description": "Seasonal vegetables cooked with spicy curry sauce.",
+              "price": [
+                18,
+                16
+              ],
               "vegan": true
             },
             {
               "name": "VEGETABLES KORMA",
               "description": "Fresh mixed vegetables cooked in cashew nuts & creamy sauce.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": false
             },
             {
               "name": "BOMBAY POTATO",
               "description": "Cubes of potatoes cooked with onion & spices.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": true
             },
             {
               "name": "PALAK PANEER",
               "description": "A speciality dish from Punjab. Fresh leafy spinach & cottage cheese cooked in a mild gravy.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": false
             },
             {
               "name": "DHAL MAKHNI",
               "description": "Mixed lentils & beans cooked with ginger, onion, tomato & fresh green coriander leaves.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": true
             },
             {
               "name": "VEGETABLE JALFRAZI",
               "description": "Sliced capsicum. onion, tomato, paneer & coriander haves cooked in a special spices.",
-              "price":  [19,17],
+              "price": [
+                19,
+                17
+              ],
               "vegan": false
-            },{
+            },
+            {
               "name": "MATAR PANEER",
               "description": "Peas & cottage cheese cooked in onion, tomato gravy.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": false
             },
             {
               "name": "MALAI KOFTA",
               "description": "Cottage cheese potato deep fried cooked in cream & spices.",
-              "price":  [18,16],
+              "price": [
+                18,
+                16
+              ],
               "vegan": false
             },
             {
               "name": "PANEER MASALA",
               "description": "Paneer fillets cooked with onion & mid sauce.",
-              "price":  [19,17],
+              "price": [
+                19,
+                17
+              ],
               "vegan": false
-            }, {
+            },
+            {
               "name": "PANEER MAKHNI",
               "description": "Butter paneer cooked in a mid creamy tomato gravy.",
-              "price":  [19,17],
+              "price": [
+                19,
+                17
+              ],
               "vegan": false
             },
             {
               "name": "PANEER MALABARI",
               "description": "Paneer cubes cooked in spicy sauce with coconut fine.",
-              "price":  [19,17],
+              "price": [
+                19,
+                17
+              ],
               "vegan": false
             },
             {
               "name": "KARAHI PANEER",
               "description": "Paneer cubes cooked with onion, capsicum & spices.",
-              "price": [19,17],
+              "price": [
+                19,
+                17
+              ],
               "vegan": false
             }
           ]
@@ -362,38 +534,219 @@
             {
               "name": "LAMB BIRYANI",
               "description": "Spiced Iamb cooked with basmati rice in a special way.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "CHICKEN BIRYANI",
               "description": "Tender chicken spiced cooked with basmati rice.",
-              "price": [22,19],
+              "price": [
+                22,
+                19
+              ],
               "vegan": false
             },
             {
               "name": "VEGETABLE BIRYANI",
               "description": "Seasonal vegetables fried in basmati rice in a very special way.",
-              "price": [17,16],
+              "price": [
+                17,
+                16
+              ],
               "vegan": true
             },
             {
               "name": "NAVRATNA PULAO (Pulao Rice)",
               "description": "Saffron rice with fruits, nuts & vegetables.",
-              "price": [7,7],
+              "price": [
+                7,
+                7
+              ],
               "vegan": true
             },
             {
               "name": "Plain Rice",
               "description": "Plain white rice (rice comes with curries)",
-              "price": [3,3],
+              "price": [
+                3,
+                3
+              ],
               "vegan": true
             }
           ]
         }
       ]
+    },
+    {
+      "name": "Tandoori Breads (Gluten)",
+      "items": [
+        {
+          "name": "Butter Naan",
+          "description": "Leavened bread from refined flour. Can be made without butter on top",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Garlic Naan",
+          "description": "Naan with garlic.",
+          "price": [
+            4,
+            4
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Paneer Naan",
+          "description": "Naan stuffed with cheese and spices.",
+          "price": [
+            5,
+            4.5
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Vegetable Naan",
+          "description": "Naan stuffed with vegetables and spices.",
+          "price": [
+            5,
+            4.5
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Keema Naan",
+          "description": "Naan stuffed with mince and spices.",
+          "price": [
+            6,
+            6
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Tandoori Roti",
+          "description": "Flat bread made from wholemeal flour.",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": true
+        },
+        {
+          "name": "Peshwari Naan",
+          "description": "Naan filled with dry fruits and nuts.",
+          "price": [
+            6,
+            6
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Garlic with Cheese Naan",
+          "description": "Naan stuffed with cheese and garlic on top.",
+          "price": [
+            6,
+            6
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Cheese with Keema Naan",
+          "description": "Naan stuffed with cheese and mince.",
+          "price": [
+            7,
+            7
+          ],
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Accompaniments",
+      "items": [
+        {
+          "name": "Papadums",
+          "description": "Four mildly spiced crispy wafers made from lentil flour",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": true
+        },
+        {
+          "name": "Raita",
+          "description": "Cucumber and yoghurt very mildly spiced.",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Fresh mint chutney",
+          "description": "Mint leaves grounded into paste.",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Sweet Mango Chutney",
+          "description": "Mangoes mildly spiced",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": true
+        },
+        {
+          "name": "Mixed Pickles",
+          "description": "Selection of pickles made for the strong heart.",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": true
+        },
+        {
+          "name": "Tomato, Onion and Cucumber salad.",
+          "description": "Diced tomato, cucumber and onion sprinkled with fine chopped coriander leaves.",
+          "price": [
+            3,
+            3
+          ],
+          "vegan": true
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Gulab Jamun (2 pieces)",
+          "description": "Milk dumplings cooked in ghee and soaked in rose water syrup.",
+          "price": [
+            4,
+            4
+          ],
+          "vegan": false
+        },
+        {
+          "name": "Mango Khulfi",
+          "description": "Reduced milk ice cream with mangoes and nuts. A traditional ice cream made in Punjab.",
+          "price": [
+            6,
+            6
+          ],
+          "vegan": false
+        }
+      ]
     }
-
-    
   ]
 }
