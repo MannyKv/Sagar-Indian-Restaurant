@@ -11,7 +11,7 @@ const Footer = () => {
             <Box id="footer" className={classes.repeatingSvg}>
             </Box>
 
-            <Box bg={"primary.9"} style={{height: "100%", width: "100vw"}}>
+            <Box bg={"primary.9"} className={classes.block} style={{height: "100%", width: "100vw"}}>
                 <Box className={classes.content_container}>
                     <Box style={{width: "fit-content", margin: "0 auto", flex: 1}}> {/* Parent container */}
                         <Title size={"h3"} c="white" fw={900} style={{fontFamily: "Noto-serif"}}>
@@ -31,9 +31,10 @@ const Footer = () => {
                         </Box>
                     </Box>
                     <iframe
+                        title="Sagar Indian Restaurant location"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.1479381640552!2d174.72192187984362!3d-36.81142929806282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d38f3b668f529%3A0x5ddd826843e43bc!2sSagar%20Indian%20Restaurant!5e0!3m2!1sen!2snz!4v1735193635166!5m2!1sen!2snz"
-                        width="100rem" height="500rem" loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade" style={{flex: 1, marginLeft: "2rem"}}></iframe>
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade" className={classes.map}></iframe>
                 </Box>
             </Box>
 

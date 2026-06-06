@@ -41,10 +41,11 @@ body {
 .repeatingSvg {
     width: 100%;
     height: 6.5rem;
+    background-color: var(--mantine-color-primary-0);
     background-image: url('../../public/single.svg');
     background-repeat: repeat-x;
     background-position: center top;
-    background-size: 6.5rem
+    background-size: auto 100%;
 
 }
 
@@ -54,7 +55,7 @@ body {
     }
 
     .container {
-        margin: 2rem 5rem 0 5rem;
+        margin: 2rem 2.5rem 0 2.5rem;
     }
 }
 

@@ -48,11 +48,11 @@ const ThePage = () => {
                     <Title style={{fontSize: "1.75rem"}} size="h5" c="primary.9">
                         OPENING HOURS:
                     </Title>
-                    <ul style={{listStyleType: "none"}}>
+                    <ul style={{listStyleType: "none", padding: 0, maxWidth: "40rem", width: "100%"}}>
                         {openingHours.map(({day, open, close}) => (
-                            <li key={day} style={{display: "flex", justifyContent: "space-between", width: "40rem"}}>
+                            <li key={day} style={{display: "flex", justifyContent: "space-between", gap: "1rem"}}>
                                 <Text size='xs' style={{margin: "0.25rem"}}>{day}</Text>
-                                <Text size='xs' style={{margin: "0.25rem"}}>{open} - {close}</Text>
+                                <Text size='xs' style={{margin: "0.25rem", whiteSpace: "nowrap"}}>{open} - {close}</Text>
                             </li>
                         ))}
                     </ul>

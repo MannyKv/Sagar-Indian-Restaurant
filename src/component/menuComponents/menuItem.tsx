@@ -1,4 +1,4 @@
-import {Box, Text, Tooltip} from "@mantine/core";
+import {Box, Group, Text, Tooltip} from "@mantine/core";
 import {FC} from "react";
 import {Item as ItemType} from './MenuTypes.ts'
 import {VeganIcon} from "lucide-react";
@@ -10,15 +10,23 @@ const MenuItem: FC<ItemProps> = ({item}) => {
 
     return (
         <Box>
-            <Box style={{display:"flex", justifyContent:"space-between"}}>
-                <Text tt="uppercase" size={"sm"} c={"primary.8"} style={{margin:"0 1rem 0 0"}}>{item.name}
+            <Group justify="space-between" align="flex-start" wrap="nowrap" gap="md">
+                <Group gap="xs" align="center" wrap="nowrap">
+                    <Text tt="uppercase" size={"sm"} c={"primary.8"} style={{lineHeight: 1.2}}>
+                        {item.name}
+                    </Text>
+                    {item.vegan ? (
+                        <Tooltip label={"Can be made vegan"}>
+                            <VeganIcon size={"1.25rem"} style={{color: "#E03131", flexShrink: 0}}/>
+                        </Tooltip>
+                    ) : null}
+                </Group>
 
-                    {item.vegan ? ( <Tooltip label={"Can be made vegan"}><VeganIcon size={"2rem"} style={{color:"E03131", marginLeft: "1rem"}}/></Tooltip>):null}</Text>
-
-                <Text tt="uppercase" size={"xs"} c={"primary.8"} style={{whiteSpace: "nowrap"}}>{item.price[0]} | {item.price[1]}</Text>
-
-            </Box>
-            <Text size={"xs"}>{item.description}</Text>
+                <Text tt="uppercase" size={"xs"} c={"primary.8"} style={{whiteSpace: "nowrap"}}>
+                    ${item.price[0]} | ${item.price[1]}
+                </Text>
+            </Group>
+            <Text size={"xs"} mt={4} style={{lineHeight: 1.4}}>{item.description}</Text>
         </Box>
     )
 
